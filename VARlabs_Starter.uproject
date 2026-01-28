@@ -3,16 +3,6 @@
 	"EngineAssociation": "5.7",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "VARlabs_Starter",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
-	],
 	"Plugins": [
 		{
 			"Name": "OpenXR",
@@ -22,10 +12,6 @@
 				"Linux",
 				"Android"
 			]
-		},
-		{
-			"Name": "GaeaUnrealTools",
-			"Enabled": false
 		}
 	]
 }
